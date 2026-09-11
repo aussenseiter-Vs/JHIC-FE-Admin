@@ -1,0 +1,6 @@
+services:
+  web:
+    image: ghcr.io/aussenseiter-vs/jhic-fe-admin:latest
+    ports:
+      - "8080:80"
+    restart: unless-stopped
